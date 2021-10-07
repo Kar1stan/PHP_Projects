@@ -51,7 +51,10 @@
     }
     file_put_contents($fileName,json_encode($categories));
   }
-  function getCategory(){
-     return json_decode(file_get_contents(__DIR__ . '/category.txt'),true);
+  function 
+     return json_decode(
+       file_get_contents(__DIR__ . '/categories.txt'),
+       true
+      );
   }
 ?>
