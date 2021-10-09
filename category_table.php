@@ -1,4 +1,5 @@
 <?php include_once __DIR__ . '/header.php' ?>
+ <?php include_once __DIR__ . '/bootstrap.php' ?>
 <div class='container'>
 <table class="table">
   <thead>
