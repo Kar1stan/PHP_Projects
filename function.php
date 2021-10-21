@@ -41,7 +41,7 @@
   {
     $categories=getCategory();
     if(is_array($categories)){
-      array_push($categories,$category)
+      array_push($categories,$category);
     }else{
        $categories[]=$category;
     }
